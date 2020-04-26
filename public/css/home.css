@@ -1,43 +1,80 @@
+
+
 .home { 
   position: relative; 
   width: 100%; /* for IE 6 */
 
-  
-  
 }
 
 
 
 .home-info h1, .home-info h2, .home-info h3 { 
   position: absolute; 
-
   left: 0; 
   width: 100%; 
- 
   padding: 1rem;
-  font-weight: bolder;
-  font: bold Helvetica, Sans-Serif; 
-   letter-spacing: 2px;  
+  font-weight: bold; 
+  letter-spacing: 2px;  
 }
 
 .home-info h1 { 
-  top: 50px; 
-  font-size: 2.5rem;
+  top: 5px; 
+  font-size: 2rem;
   color: white;
   }
 
 .home-info h2 { 
-
-  top: 110px; 
-
+  top: 100px; 
    color: #FF1616;
-   font-size: 2rem;
+   font-size: 1.5rem;
 }
 
 
-
 .home-info h3{
-  top: 170px; 
+  top: 180px; 
   font-size: 1rem;
   color: white;
+}
+
+/* MEDIA QUERIES */
+@media(min-width: 600px){
+  .home-info h1 { 
+    top: 40px; 
+    font-size: 2rem;
+   
+    }
+  
+  .home-info h2 { 
+    top: 120px; 
+     font-size: 1.5rem;
+  }
+  
+  
+  .home-info h3{
+    top: 190px; 
+    font-size: 1rem;
+
+  }
+  
+}
+
+@media(min-width: 800px){
+  .home-info h1 { 
+    top: 90px; 
+    font-size: 2rem;
+   
+    }
+  
+  .home-info h2 { 
+    top: 200px; 
+     font-size: 1.5rem;
+  }
+  
+  
+  .home-info h3{
+    top: 300px; 
+    font-size: 1rem;
+
+  }
+  
 }

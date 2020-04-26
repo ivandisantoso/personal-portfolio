@@ -1,3 +1,29 @@
+.card{
+  color: white;
+}
+
+.card-body svg{
+  color: #FF1616;
+  fill:"currentColor";
+  margin-bottom: 0.5rem;
+  width: 2em ;
+  height: 2em;
+  
+}
+
+.btn-primary{
+  background-color:#FF1616;
+  border: 1px solid #FF1616;
+  margin-top: 0.5rem;
+}
+
+.card-body a:hover{
+  background-color:#FBD214;
+  border: 1px solid #FBD214;
+  color: black;
+
+}
+
 .card-content h3{
  
   text-align: center;

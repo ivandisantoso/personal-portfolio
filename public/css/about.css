@@ -25,22 +25,31 @@ margin-top: 1rem;
 
 }
 
-.button {
+.button a{
   display: block;
   width: fit-content;
   background: #FF1616;
-  
+  /* position: le; */
   border-radius: 5px;
 
   font-weight: bold;
   margin: 1rem auto;
-  
+  text-align: center;
   padding:1rem;
+  /* justify-items: left;
+  justify-content: left;
+  align-items: flex-start;
+  align-content: flex-start; */
 }
 
+/* button a{
+  text-align: left;
+  position: 0;
+} */
 
-.about-info a:hover{
+.button a:hover{
 
   color: black;
   background: #FBD214;
+  text-decoration: none;
 }

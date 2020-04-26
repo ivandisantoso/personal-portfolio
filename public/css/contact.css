@@ -19,3 +19,10 @@
   margin-top: 1rem;
   color: black;
   }
+
+
+
+.contact-info a:hover { 
+ text-decoration: none;
+ color: #FF1616;
+  }
