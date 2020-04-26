@@ -4,16 +4,26 @@ export default class About extends Page {
 	constructor() {
 		super()
 		this.html = `
-		<header>
-			<h2>About</h2>
-			<button id="dosomething">Click me!</button>
-		</header>
-		<h3>Learn more about:</h3>
-		<ul class="router">
-			<li><a href="about/faculty">Faculty</a></li>
-			<li><a href="about/students">Students</a></li>
-		</ul>
-		<article id="info"></article>`
+		<div class="about">
+			<div class="about-title">
+				<h1>About Me</h1>
+			</div>	
+			<div class="about-info">
+				<h2>I’m a IT Technical Support from Indonesia	</h2>
+				<p>I love to work with a team or independently with minimum supervision. I enjoy setting up the network infrastructure. I’m not a good in programming, I need to take more and more time to really understand that because programming needs very details command and logic. And also I’m not a good in designing area</p>
+				<p>When I’m off from work, you’ll find me in the gym or on the basketball court or ice hockey place.</p>
+				<p><a href="https://www.ivandisantoso.computer/docs/IvandiSantoso's-CV.pdf" target="_blank" class="button">View Resume</a> 
+				</p>
+				<button id="dosomething">View Resume</button>
+				<ul class="router">
+					<li><a href="about/faculty">Faculty</a></li>
+					<li><a href="about/students">Students</a></li>
+				</ul>
+				<article id="info"></article>
+			</div>
+		</div>
+		`
+		
 	}
 	registerListeners() {
 		console.log('registerListeners() from: About')

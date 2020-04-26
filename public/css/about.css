@@ -1,0 +1,46 @@
+.about{
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  
+  font: bold Helvetica, Sans-Serif; 
+}
+
+.about-title h1 { 
+
+  font-size: 2.5rem;
+  padding: 2rem;
+  color: #FF1616;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.about-info h2 { 
+
+   font-size: 2rem;
+}
+
+.about-info p { 
+margin-top: 1rem;
+
+}
+
+.button {
+  display: block;
+  width: fit-content;
+  background: #FF1616;
+  
+  border-radius: 5px;
+
+  font-weight: bold;
+  margin: 1rem auto;
+  
+  padding:1rem;
+}
+
+
+.about-info a:hover{
+
+  color: black;
+  background: #FBD214;
+}

@@ -4,7 +4,14 @@ export default class Home extends Page {
 	constructor() {
 		super()
 		this.html = `
-			<h2>Home</h2>
-			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, excepturi placeat deserunt a sint tempore iure delectus. Explicabo tenetur eligendi rerum consequatur adipisci! Non recusandae provident placeat facere aut architecto!</p>`
+		<div class="home">
+		<img src="/img/Untitled-2.jpg" id="bg" alt="">
+			<div class="home-info">
+				<h1>I’m Ivandi Santoso</h1>
+				<h2>IT Technical Support</h2>
+				<h3>Seeking an entry-level position to begin my carrier in a high level professional environment.</h3>
+			</div>
+		</div>
+			`
 	}
 }

@@ -1,0 +1,21 @@
+.contact{
+  background-color: white;
+
+  padding: 1rem;
+ 
+  font: bold Helvetica, Sans-Serif; 
+}
+
+.contact-title h1 { 
+
+  font-size: 2.5rem;
+  padding: 2rem;
+  color: #FF1616;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.contact-info a { 
+  margin-top: 1rem;
+  color: black;
+  }

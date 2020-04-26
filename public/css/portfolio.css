@@ -1,0 +1,63 @@
+.card-content h3{
+ 
+  text-align: center;
+}
+
+.deck-card-list{
+display: grid;
+text-align: center;
+}
+
+.card{
+  border-radius: .5rem;
+  background-color: black;
+  margin: 1rem;
+  box-shadow:  1rem 0 1rem 1rem rgba(0,0,0,0.4);
+}
+
+.card-content{
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+p .read-more{
+  text-align: center;
+}
+
+
+
+@media(min-width: 600px){
+  .deck-card-list{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .zoom {
+    transition: transform .2s; /* Animation */
+
+  }
+  
+  .zoom:hover {
+      transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+}
+
+@media(min-width: 800px){
+  .deck-card-list{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+
+  .zoom {
+    transition: transform .2s; /* Animation */
+
+  }
+  
+  .zoom:hover {
+      transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+}
