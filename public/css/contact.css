@@ -20,9 +20,23 @@
   color: black;
   }
 
+.contact-info{
+  margin: 1rem 0;
+}
 
+.col{
+
+  
+}
 
 .contact-info a:hover { 
  text-decoration: none;
  color: #FF1616;
   }
+
+.btn:hover{
+    background-color:#FBD214;
+    border: 1px solid #FBD214;
+    color: black;
+  
+}

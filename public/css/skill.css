@@ -1,8 +1,29 @@
-.skills{
-  color: black;
+.skill-set{
   background-color: white;
+  color: black;
+  padding: 1rem;
+
 }
-.progress-bar{
+
+.skills{
+  margin: 2rem 1rem;
+}
+
+.skill-title h1 { 
+
+  font-size: 2.5rem;
+  padding: 2rem;
+  color: #FF1616;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.progress-bar {
+  background-color: #FF1616;
   width: 80%;
- 
+}
+
+.progress-bar-striped {
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 1rem 1rem;
 }

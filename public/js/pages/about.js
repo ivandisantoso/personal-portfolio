@@ -4,7 +4,7 @@ export default class About extends Page {
 	constructor() {
 		super()
 		this.html = `
-		<div class="about">
+		<section class="about">
 			<div class="about-title">
 				<h1>About Me</h1>
 			</div>	
@@ -14,14 +14,9 @@ export default class About extends Page {
 				<p>When I’m off from work, you’ll find me in the gym or on the basketball court or ice hockey place.</p>
 				<div class="button"><a href="https://www.ivandisantoso.computer/docs/IvandiSantoso's-CV.pdf" target="_blank">View Resume</a> </div>
 				
-				<button id="dosomething">View Resume</button>
-				<ul class="router">
-					<li><a href="about/faculty">Faculty</a></li>
-					<li><a href="about/students">Students</a></li>
-				</ul>
-				<article id="info"></article>
+			
 			</div>
-		</div>
+		</section>
 		`
 		
 	}
