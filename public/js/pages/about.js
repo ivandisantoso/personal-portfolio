@@ -12,7 +12,7 @@ export default class About extends Page {
 				<h2>I’m a IT Technical Support from Indonesia	</h2>
 				<p>I love to work with a team or independently with minimum supervision. I enjoy setting up the network infrastructure. I’m not a good in programming, I need to take more and more time to really understand that because programming needs very details command and logic. And also I’m not a good in designing area</p>
 				<p>When I’m off from work, you’ll find me in the gym or on the basketball court or ice hockey place.</p>
-				<div class="button"><a href="https://www.ivandisantoso.computer/docs/IvandiSantoso's-CV.pdf" target="_blank">View Resume</a> </div>
+				<div class="button"><a href="https://www.ivandisantoso.computer/docs/IvandiSantoso's-Resume1.pdf" target="_blank">View Resume</a> </div>
 				
 			
 			</div>
