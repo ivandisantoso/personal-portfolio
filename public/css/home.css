@@ -21,7 +21,16 @@
   top: 5px; 
   font-size: 2rem;
   color: white;
+  opacity: 0;
+  transition: 0.5s ease;
+  
   }
+
+  .home-info h1:hover { 
+  opacity: 1;
+  
+    }
+
 
 .home-info h2 { 
   top: 80px; 
